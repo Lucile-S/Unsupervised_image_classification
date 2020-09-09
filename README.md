@@ -33,7 +33,7 @@ The stats of images sizes by category show that the images have vastly different
 <p align="left"><img src="Helper/size_description.jpg" width="800"\></p>
 
 ## Image pre-processing  : 
-Images are reading  as grayscale and resizing to 150x100.
+Images are reading  as grayscale and resizing to 150x150.
 The amount of features is reduced  to (8000, 22500)
 
 ## Ressources

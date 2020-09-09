@@ -30,7 +30,7 @@ In this project, I created a smaller dataset consisting of **2000 images from ea
 
 #### Distribution of Images Sizes 
 The stats of images sizes by category show that the images have vastly different shapes. 
-<p align="center"><img src="Helper/size_description.jpg" width="200"\></p>
+<p align="center"><img src="Helper/size_description.jpg" width="800"\></p>
 
 ## Image pre-processing  : 
 Images are reading  as grayscale and resizing to 150x100.

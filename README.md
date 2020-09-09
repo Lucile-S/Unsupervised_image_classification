@@ -53,6 +53,8 @@ In order to reduce dimentionality PCA is applied. Figure below shows the cumulat
 <p align="left"><img src="Helper/PCA_257.png" width="800"\></p>
 This is the number of principal components that will be used when runnig the algorithm.
 
+The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
+
 ## Ressources
 For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 

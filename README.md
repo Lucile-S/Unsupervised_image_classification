@@ -55,6 +55,11 @@ This is the number of principal components that will be used when runnig the alg
 
 The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
 
+## Pre-trained EfficientNet model (Google ; 2019)
+
+
+
+
 ## Ressources
  
 Data:
@@ -63,4 +68,8 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
 Pre-trained Model:
 https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
+https://github.com/beleidy/unsupervised-image-clustering/blob/master/capstone.ipynb
+
+Kmeans :
+https://medium.com/datadriveninvestor/k-means-clustering-for-imagery-analysis-56c9976f16b6
 

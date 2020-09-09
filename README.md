@@ -56,8 +56,11 @@ This is the number of principal components that will be used when runnig the alg
 The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
 
 ## Ressources
-For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+ 
+Data:
+https://data.mendeley.com/datasets/rscbjbr9sj/2
+http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
-Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
+Pre-trained Model:
+https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
 
-Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

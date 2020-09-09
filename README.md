@@ -43,9 +43,14 @@ In this project, I created a smaller dataset consisting of **2000 images from ea
 The stats of images sizes by category show that the images have vastly different shapes. 
 <p align="left"><img src="Helper/size_description.jpg" width="800"\></p>
 
-## Image pre-processing  : 
-Images are reading  as grayscale and resizing to 150x150.
+## K-means clustering algorithm
+###  Image pre-processing  : 
+Images are reading as grayscale and resizing to 150x150.
 The amount of features is reduced  to (8000, 22500)
+
+### PCA
+In order to reduce dimentionality PCA is applied. Figure below shows the cumulative sum of the first 257 principal components that  explains 95% of the variance.
+<p align="left"><img src="Helper/PCA_257.jpg" width="800"\></p>
 
 ## Ressources
 For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

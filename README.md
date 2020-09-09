@@ -1,7 +1,11 @@
 # Unsupervised_image_classification
 
 ## Project
-I will explore how I can give the computer a group of retine OCT images, and it can cluster the ones with the same patalogy together.
+I will explore how I can give the computer a group of retine OCT images, and it can cluster the ones with the same patalogy/without any pathology together.
+First, I will use a classical clustering algorithm such as K-means.
+Secondly, I will use a pretrained convolutional network for feature extraction from OCT images, and then apply a clustering algorithm to the extracted features. 
+Also the results will be compared to the true categories of the data set in order to verify whether or not the clusters generated through the clustering algorithms resemble the ground truth categories of the data set.
+
 
 ## DATA 
 
@@ -13,7 +17,12 @@ The figure below Represents Optical Coherence Tomography Images and the Workflow
 
 <p align="center"><img src="Helper/och.png" width="840"\></p>
 
-(A) (Far left) choroidal neovascularization (CNV) with neovascular membrane (white arrowheads) and associated subretinal fluid (arrows). (Middle left) Diabetic macular edema (DME) with retinal-thickening-associated intraretinal fluid (arrows). (Middle right) Multiple drusen (arrowheads) present in early AMD. (Far right) Normal retina with preserved foveal contour and absence of any retinal fluid/edema.
+(Far left) choroidal neovascularization (CNV) with neovascular membrane (white arrowheads) and associated subretinal fluid (arrows). (Middle left) Diabetic macular edema (DME) with retinal-thickening-associated intraretinal fluid (arrows). (Middle right) Multiple drusen (arrowheads) present in early AMD. (Far right) Normal retina with preserved foveal contour and absence of any retinal fluid/edema.
+
+**CNV** : Choroidal neovascularization (CNV) involves the growth of new blood vessels that originate from the choroid through a break in the Bruch membrane into the sub–retinal pigment epithelium (sub-RPE) or subretinal space. CNV is a major cause of visual loss. It is a common cause of macular degeneration commonly exacerbated by extreme myopia, malignant myopic degeneration, or age-related developments.
+**DME** : Diabetic Macular Edema (DME) is an accumulation of fluid in the macula part of the retina that controls our most detailed vision abilities—due to leaking blood vessels. In order to develop DME, you must first have diabetic retinopathy. Diabetic retinopathy is a disease that damages the blood vessels in the retina, resulting in vision impairment. 
+**Drusen**: Drusen are yellow deposits under the retina, made up of lipids and proteins. It likely do not cause AMD but having drusen increases a person’s risk of developing AMD.
+
 
 Optical coherence tomography (OCT) images (Spectralis OCT, Heidelberg Engineering, Germany) were selected from retrospective cohorts of adult patients from the Shiley Eye Institute of the University of California San Diego, the California Retinal Research Foundation, Medical Center Ophthalmology Associates, the Shanghai First People’s Hospital, and Beijing Tongren Eye Center between July 1, 2013 and March 1, 2017.
 

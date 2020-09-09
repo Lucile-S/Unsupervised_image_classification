@@ -23,7 +23,7 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 Images are labeled as (disease)-(randomized patient ID)-(image number by this patient) and split into 4 directories: CNV, DME, DRUSEN, and NORMAL.
 
 <p align="center"><img src="Helper/nb_images_all_dataset.jpg" width="200"\></p>
-<p align="center"><img src="Helper/training_images_by_cat.png" width="840"\></p>
+<p align="center"><img src="Helper/training_images_by_cat.png" width="640"\></p>
 
 For the purpose of the project, I created a smaller dataset consisting of 2000 images from each directories, giving a total of 8000 images   
 

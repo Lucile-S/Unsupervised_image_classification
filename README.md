@@ -49,7 +49,7 @@ Images are reading as grayscale and resizing to 150x150.
 The amount of features is reduced  to (8000, 22500)
 
 ### PCA
-In order to reduce dimentionality PCA is applied. Figure below shows the cumulative sum of the first 257 principal components that  explains 95% of the variance.
+In order to reduce dimentionality PCA is applied. Figure below shows the cumulative sum of the first 257 principal components that explains 95% of the variance (90% --> yellow dashed ligne ; 95% --> orange dashed ligne ; 99% --> red dashed ligne).
 <p align="left"><img src="Helper/PCA_257.png" width="800"\></p>
 
 ## Ressources

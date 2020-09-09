@@ -25,7 +25,7 @@ Images are labeled as (disease)-(randomized patient ID)-(image number by this pa
 <p align="center"><img src="Helper/nb_images_all_dataset.jpg" width="200"\></p>
 <p align="center"><img src="Helper/training_images_by_cat.png" width="640"\></p>
 
-For the purpose of the project, I created a smaller dataset consisting of **2000 images from each directories, giving a total of 8000 images.**   
+In this project, I created a smaller dataset consisting of **2000 images from each directories, giving a total of 8000 images.**   
 
 ## Ressources
 For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

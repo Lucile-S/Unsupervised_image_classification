@@ -27,7 +27,14 @@ Images are labeled as (disease)-(randomized patient ID)-(image number by this pa
 
 In this project, I created a smaller dataset consisting of **2000 images from each directories, giving a total of 8000 images.**  
 
-## Image pre-processing 
+
+#### Distribution of Images Sizes 
+The stats of images sizes by category show that the images have vastly different shapes. 
+<p align="center"><img src="Helper/size_description.jpg" width="200"\></p>
+
+## Image pre-processing  : 
+Images are reading  as grayscale and resizing to 150x100.
+The amount of features is reduced  to (8000, 22500)
 
 ## Ressources
 For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

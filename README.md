@@ -2,7 +2,9 @@
 
 ## Project
 I will explore how I can give the computer a group of retine OCT images, and it can cluster the ones with the same patalogy/without any pathology together.
+
 First, I will use a classical clustering algorithm such as K-means.
+
 Secondly, I will use a pretrained convolutional network for feature extraction from OCT images, and then apply a clustering algorithm to the extracted features. 
 Also the results will be compared to the true categories of the data set in order to verify whether or not the clusters generated through the clustering algorithms resemble the ground truth categories of the data set.
 

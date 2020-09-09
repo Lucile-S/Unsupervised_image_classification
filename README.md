@@ -22,8 +22,9 @@ The dataset is organized into 3 folders (train, test, val) and contains subfolde
 
 Images are labeled as (disease)-(randomized patient ID)-(image number by this patient) and split into 4 directories: CNV, DME, DRUSEN, and NORMAL.
 
-For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
-Acknowledgements:
+For the purpose of the project, I created a smaller dataset consisting of 2000 images from each directories, giving a total of 8000 images   
 
+## Ressources
+For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 Data: https://data.mendeley.com/datasets/rscbjbr9sj/2
 Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

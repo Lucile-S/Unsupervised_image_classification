@@ -50,7 +50,7 @@ The amount of features is reduced  to (8000, 22500)
 
 ### PCA
 In order to reduce dimentionality PCA is applied. Figure below shows the cumulative sum of the first 257 principal components that  explains 95% of the variance.
-<p align="left"><img src="Helper/PCA_257.jpg" width="800"\></p>
+<p align="left"><img src="Helper/PCA_257.png" width="800"\></p>
 
 ## Ressources
 For additional information: see http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5

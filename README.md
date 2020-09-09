@@ -8,7 +8,7 @@ Retinal optical coherence tomography (OCT) is an imaging technique used to captu
 
 The figure below Represents Optical Coherence Tomography Images and the Workflow Diagram [Kermany et. al. 2018] http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
-<p align="center"><img src="Helpers/och.png" width="840"\></p>
+<p align="center"><img src="Helper/och.png" width="840"\></p>
 
 (A) (Far left) choroidal neovascularization (CNV) with neovascular membrane (white arrowheads) and associated subretinal fluid (arrows). (Middle left) Diabetic macular edema (DME) with retinal-thickening-associated intraretinal fluid (arrows). (Middle right) Multiple drusen (arrowheads) present in early AMD. (Far right) Normal retina with preserved foveal contour and absence of any retinal fluid/edema.
 

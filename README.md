@@ -72,7 +72,6 @@ Then the top dense layers is removed, since it is not supervised classification 
 
 https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
 
-
 ## Ressources
  
 Data:

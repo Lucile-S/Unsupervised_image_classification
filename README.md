@@ -84,11 +84,11 @@ Then the top dense layers is removed, since it is not supervised classification 
 code : https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
 
 The number of features given by EfficientNet to a single image is 62,720 whereas the original size of the image 224 x 224 x 3 = 150,528 pixels/features. 
+
+### PCA
 After appplying PCA the number of features is reduced to 2662 principal components (number of PCs keeping 99% of the variance).
 
 <p align="left"><img src="Helper/pca_efn.png" width="400"\>
-
-### PCA
 
 ### K-means
 <p align="left"><img src="Helper/efn_pca_count.JPG" width="400"\>

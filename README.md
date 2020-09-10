@@ -98,6 +98,9 @@ After appplying PCA the number of features is reduced to 2662 principal componen
 <p align="left"><img src="Helper/efn_gm_pca_count.JPG" width="400"\>
 
 ## Ressources
+
+Computer vision:
+https://paperswithcode.com/area/computer-vision
  
 Data:
 https://data.mendeley.com/datasets/rscbjbr9sj/2
@@ -112,3 +115,5 @@ https://medium.com/datadriveninvestor/k-means-clustering-for-imagery-analysis-56
 
 automatisation : 
 https://notify.run/
+
+

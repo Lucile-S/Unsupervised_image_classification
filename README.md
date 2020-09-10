@@ -71,7 +71,7 @@ With PCA :
 Setting n_clusters=2 yielded the best results. Nevertheless, the algorithms achieved low Silhouette index scores, none of the algorithms produce a
 clustering that achieves a high Silhouette index score. 
 
-Other clustering technique such as Spectral clustering shoulb be testest but the score will be probably still low. 
+Other clustering technique such as Spectral clustering or GaussianMixture should be testest but the score will be probably still low. 
 
 ## Pre-trained EfficientNet model (Google ; 2019)
 For this part the 4000 images dataset has utilised because 8000 images dataset leads to memory issue.

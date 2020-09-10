@@ -85,9 +85,10 @@ code : https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv
 
 ### K-means
 <p align="left"><img src="Helper/efn_pca_count.JPG" width="400"\>
+ 
 ### Gaussian Mixture 
 
-<p align="left"><img src="Helper/efn_gm_pca_countt.JPG" width="400"\>
+<p align="left"><img src="Helper/efn_gm_pca_count.JPG" width="400"\>
 
 ## Ressources
  

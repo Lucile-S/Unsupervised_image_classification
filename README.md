@@ -61,7 +61,11 @@ This is the number of principal components that will be used when runnig the alg
 The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
 
 ### Silhouette Score 
+No PCA : 
+<p align="left"><img src="Helper/silhouette_score_kmean.JPG" width="800"\></p>
 
+With PCA :
+<p align="left"><img src="Helper/silhouette_score_kmean_pca.JPG" width="800"\></p>
 
 ## Pre-trained EfficientNet model (Google ; 2019)
 For this part the 4000 images dataset has utilised because 8000 images dataset leads to memory issue.

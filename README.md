@@ -80,7 +80,14 @@ The  idea is to use a neural network that has already been trained to detect tho
 
 Then the top dense layers is removed, since it is not supervised classification here, and encoded features from the images are collected.
 
-https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
+code : https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
+### PCA
+
+### K-means
+<p align="left"><img src="Helper/efn_pca_count.JPG" width="400"\>
+### Gaussian Mixture 
+
+<p align="left"><img src="Helper/efn_gm_pca_countt.JPG" width="400"\>
 
 ## Ressources
  

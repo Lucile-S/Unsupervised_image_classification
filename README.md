@@ -101,14 +101,17 @@ After appplying PCA the number of features is reduced to 2662 principal componen
 
 Computer vision:
 https://paperswithcode.com/area/computer-vision
+
 [SCAN: Learning to Classify Images without Labels] https://paperswithcode.com/paper/learning-to-classify-images-without-labels
  
 Data:
 https://data.mendeley.com/datasets/rscbjbr9sj/2
+
 http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
 Pre-trained Model:
 https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
+
 https://github.com/beleidy/unsupervised-image-clustering/blob/master/capstone.ipynb
 
 Kmeans :

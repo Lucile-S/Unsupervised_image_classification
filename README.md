@@ -62,10 +62,10 @@ The result of the preprocessing is a reduction of 22500 features down to 257 pri
 
 ### Silhouette Score 
 No PCA : 
-<p align="left"><img src="Helper/silhouette_score_kmean.JPG" width="800"\></p>
+<p align="left"><img src="Helper/silhouette_score_kmean.JPG" width="400"\></p>
 
 With PCA :
-<p align="left"><img src="Helper/silhouette_score_kmean_pca.JPG" width="800"\></p>
+<p align="left"><img src="Helper/silhouette_score_kmean_pca.JPG" width="400"\></p>
 
 ## Pre-trained EfficientNet model (Google ; 2019)
 For this part the 4000 images dataset has utilised because 8000 images dataset leads to memory issue.

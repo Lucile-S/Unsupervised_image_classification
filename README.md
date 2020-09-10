@@ -110,3 +110,5 @@ https://github.com/beleidy/unsupervised-image-clustering/blob/master/capstone.ip
 Kmeans :
 https://medium.com/datadriveninvestor/k-means-clustering-for-imagery-analysis-56c9976f16b6
 
+automatisation : 
+https://notify.run/

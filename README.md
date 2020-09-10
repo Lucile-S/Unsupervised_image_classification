@@ -47,6 +47,8 @@ The stats of images sizes by category show that the images have vastly different
 
 ## K-means clustering algorithm
 For K-means the 8000 images data set size has been able to be utilised (no memory issue). 
+The algorithm was runned with and without PCA before. 
+
 ###  Image pre-processing  : 
 Images are reading as grayscale and resizing to 150x150.
 The amount of features is reduced  to (8000, 22500)
@@ -58,7 +60,7 @@ This is the number of principal components that will be used when runnig the alg
 
 The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
 
-### 
+### Silhouette Score 
 
 
 ## Pre-trained EfficientNet model (Google ; 2019)

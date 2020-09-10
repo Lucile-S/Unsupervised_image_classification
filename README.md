@@ -101,6 +101,7 @@ After appplying PCA the number of features is reduced to 2662 principal componen
 
 Computer vision:
 https://paperswithcode.com/area/computer-vision
+[SCAN: Learning to Classify Images without Labels] https://paperswithcode.com/paper/learning-to-classify-images-without-labels
  
 Data:
 https://data.mendeley.com/datasets/rscbjbr9sj/2

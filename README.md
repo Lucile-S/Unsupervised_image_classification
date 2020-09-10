@@ -7,6 +7,8 @@ First, I will use a classical clustering algorithm such as K-means.
 
 Secondly, I will use a pretrained convolutional network for feature extraction from OCT images, and then apply a clustering algorithm to the extracted features. 
 Also the results will be compared to the true categories of the data set in order to verify whether or not the clusters generated through the clustering algorithms resemble the ground truth categories of the data set.
+Many pre-trained models are available such as VGG-16 (2014), Resnet50 (2015), InceptionV3 (2015), and EfficientNet (2019).
+For a first approach, I choose to use the last released one - EfficientNet. 
 
 
 ## DATA 
@@ -36,7 +38,7 @@ Images are labeled as (disease)-(randomized patient ID)-(image number by this pa
 <p align="center"><img src="Helper/nb_images_all_dataset.jpg" width="200"\></p>
 <p align="center"><img src="Helper/training_images_by_cat.png" width="640"\></p>
 
-In this project, I created a smaller dataset consisting of **2000 images from each directories, giving a total of 8000 images.**  
+In this project, I created a smaller datasets consisting of **2000/1000 images from each directories, giving a total of 8000/4000 images.**  
 
 
 #### Distribution of Images Sizes 
@@ -44,6 +46,7 @@ The stats of images sizes by category show that the images have vastly different
 <p align="left"><img src="Helper/size_description.jpg" width="800"\></p>
 
 ## K-means clustering algorithm
+For K-means the 8000 images data set size has been able to be utilised (no memory issue). 
 ###  Image pre-processing  : 
 Images are reading as grayscale and resizing to 150x150.
 The amount of features is reduced  to (8000, 22500)
@@ -55,9 +58,17 @@ This is the number of principal components that will be used when runnig the alg
 
 The result of the preprocessing is a reduction of 22500 features down to 257 principal components.
 
+### 
+
+
 ## Pre-trained EfficientNet model (Google ; 2019)
+For this part the 4000 images dataset has utilised because 8000 images dataset leads to memory issue.
 
+The  idea is to use a neural network that has already been trained to detect thousands of classes of images with millions of images. One such dataset is ImageNet that consists of 14 million images.  A ImageNet trained Keras model of EfficientNet is available here : https://keras.io/api/applications/efficientnet/#efficientnetb0-function. 
 
+Then the top dense layers is removed, since it is not supervised classification here, and encoded features from the images are collected.
+
+https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
 
 
 ## Ressources

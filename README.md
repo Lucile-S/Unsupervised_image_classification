@@ -75,12 +75,19 @@ Other clustering technique such as Spectral clustering or GaussianMixture should
 
 ## Pre-trained EfficientNet model (Google ; 2019)
 For this part the 4000 images dataset has utilised because 8000 images dataset leads to memory issue.
+Images were resize to 224x224 (input format used by efficientNet), convert to RGB and normalized.
 
 The  idea is to use a neural network that has already been trained to detect thousands of classes of images with millions of images. One such dataset is ImageNet that consists of 14 million images.  A ImageNet trained Keras model of EfficientNet is available here : https://keras.io/api/applications/efficientnet/#efficientnetb0-function. 
 
 Then the top dense layers is removed, since it is not supervised classification here, and encoded features from the images are collected.
 
 code : https://colab.research.google.com/drive/1SxKMN3ACEqsjEsxviI_Nbs3hfQMqdbbv?usp=sharing
+
+The number of features given by EfficientNet to a single image is 62,720 whereas the original size of the image 224 x 224 x 3 = 150,528 pixels/features. 
+After appplying PCA the number of features is  reduced to 2662 principal components.
+
+<p align="left"><img src="Helper/pca_efn.JPG" width="400"\>
+
 ### PCA
 
 ### K-means
